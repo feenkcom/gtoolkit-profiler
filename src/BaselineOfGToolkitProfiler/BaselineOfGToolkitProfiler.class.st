@@ -9,12 +9,15 @@ Class {
 	#category : #BaselineOfGToolkitProfiler
 }
 
-{ #category : #baselines }
+{ #category : #baseline }
 BaselineOfGToolkitProfiler >> baseline: spec [
 	<baseline>
 	spec for: #'common' do: [
-		spec baseline: 'FuturesTelemetry' with: [
-			spec repository: 'github://feenkcom/pharo-futures:main/src' ].
-		spec baseline: 'VirtualMachineTelemetry' with: [
-				spec repository: 'github://feenkcom/pharo-telemetry:main/src' ] ].
+		spec
+			baseline: 'FuturesTelemetry' with: [
+				spec repository: 'github://feenkcom/pharo-futures:v0.6.127/src' ].
+		spec
+			baseline: 'VirtualMachineTelemetry' with: [
+				spec repository: 'github://feenkcom/pharo-telemetry:v0.6.59/src' ].
+	]
 ]
