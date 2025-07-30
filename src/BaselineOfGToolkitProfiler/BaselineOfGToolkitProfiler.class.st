@@ -15,9 +15,9 @@ BaselineOfGToolkitProfiler >> baseline: spec [
 	spec for: #'common' do: [
 		spec
 			baseline: 'FuturesTelemetry' with: [
-				spec repository: 'github://feenkcom/pharo-futures:v0.6.144/src' ].
+				spec repository: 'github://feenkcom/pharo-futures:v0.6.145/src' ].
 		spec
 			baseline: 'VirtualMachineTelemetry' with: [
-				spec repository: 'github://feenkcom/pharo-telemetry:v0.6.101/src' ].
+				spec repository: 'github://feenkcom/pharo-telemetry:v0.6.102/src' ].
 	]
 ]
