@@ -1,6 +1,6 @@
 {
 	"repositories" : {
-		"github://feenkcom/pharo-telemetry/src" : "v0.6.131",
-		"github://feenkcom/pharo-futures/src" : "v0.6.154"
+		"github://feenkcom/pharo-telemetry/src" : "v0.6.132",
+		"github://feenkcom/pharo-futures/src" : "v0.6.155"
 	}
 }
